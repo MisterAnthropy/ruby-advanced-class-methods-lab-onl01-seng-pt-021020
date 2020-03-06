@@ -39,6 +39,8 @@ class Song
     sorted = self.all.sort_by {|song| song.name}
     sorted
   end
+  def new_from_filename(filename)
+    array = filename.split(" - ")
     
 
 end
